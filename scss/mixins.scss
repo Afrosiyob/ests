@@ -1,0 +1,13 @@
+@mixin container {
+    padding: 0 64px !important;
+    @media screen and ( max-width: 768px) {
+        padding: 0 32px !important;
+    }
+    @media screen and ( max-width: 320px) {
+        padding: 0 16px !important;
+    }
+}
+
+@mixin anim {
+    transition: all 0.2s linear;
+}

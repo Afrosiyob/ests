@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/index.css">
+</head>
+
+<body data-spy="scroll" data-offset="0" class="scrollspy-example">
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+    <nav class="top-navbar">
+        <a href="#!">
+            <img src="./assets/images/Снимок.PNG" alt="logo">
+        </a>
+        <div class="right-item">
+            <ul class="menu" id="menu">
+                <li class="active"><a href="#section1">link1</a></li>
+                <li><a href="#section2">link2</a></li>
+                <li><a href="#section3">link3</a></li>
+                <li><a href="#section4">link4</a></li>
+                <li><a href="#section5">link5</a></li>
+            </ul>
+            <ul class="tel-bars">
+                <li>
+                    <a href="#!"> <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.4 20C11.3173 19.9947 7.40331 18.3705 4.5164 15.4836C1.62949 12.5967 0.00529192 8.6827 0 4.59999C0 3.38 0.484642 2.20997 1.34731 1.3473C2.20998 0.484634 3.38 -7.77552e-06 4.6 -7.77552e-06C4.85834 -0.00197558 5.11625 0.0214706 5.37 0.0699922C5.61531 0.106293 5.85647 0.166582 6.09 0.249992C6.25425 0.307622 6.40061 0.407126 6.51461 0.538664C6.62861 0.670203 6.7063 0.829221 6.74 0.999992L8.11 6.99999C8.14693 7.16286 8.14248 7.33237 8.09706 7.49308C8.05165 7.65378 7.96671 7.80055 7.85 7.91999C7.72 8.05999 7.71 8.06999 6.48 8.70999C7.46499 10.8708 9.1932 12.6062 11.35 13.6C12 12.36 12.01 12.35 12.15 12.22C12.2694 12.1033 12.4162 12.0183 12.5769 11.9729C12.7376 11.9275 12.9071 11.9231 13.07 11.96L19.07 13.33C19.2353 13.3683 19.3881 13.4481 19.5141 13.5618C19.64 13.6756 19.735 13.8195 19.79 13.98C19.8744 14.2174 19.938 14.4616 19.98 14.71C20.0202 14.9613 20.0403 15.2155 20.04 15.47C20.0216 16.6848 19.5233 17.8429 18.654 18.6916C17.7847 19.5404 16.6149 20.0107 15.4 20ZM4.6 1.99999C3.91125 2.00263 3.25146 2.2774 2.76443 2.76442C2.27741 3.25145 2.00263 3.91124 2 4.59999C2.00265 8.15308 3.41528 11.5599 5.92769 14.0723C8.44011 16.5847 11.8469 17.9973 15.4 18C16.0888 17.9974 16.7485 17.7226 17.2356 17.2356C17.7226 16.7485 17.9974 16.0887 18 15.4V15.07L13.36 14L13.07 14.55C12.62 15.42 12.29 16.05 11.45 15.71C9.79288 15.1169 8.2887 14.162 7.04673 12.9149C5.80477 11.6677 4.85622 10.1596 4.27 8.49999C3.91 7.71999 4.59 7.35999 5.45 6.90999L6 6.63999L4.93 1.99999H4.6Z" fill="white"/>
+                        </svg> +998 (99) 800-26-62
+                    </a>
+                </li>
+                <li>
+                    <button id="menu-btn-bars"><i class="fas fa-bars"></i></button>
+                </li>
+            </ul>
+        </div>
+        <div class="mob-menu" id="mob-menu">
+            <button id="menu-btn-times"><i class="fas fa-times"></i></button>
+            <ul class="menu">
+                <li><a href="#!">section1</a></li>
+                <li><a href="#!">section2</a></li>
+                <li><a href="#!">section3</a></li>
+                <li><a href="#!">section4</a></li>
+                <li><a href="#!">section5</a></li>
+                <li>
+
+                    <a href="#!" class="phone-link"> <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.4 20C11.3173 19.9947 7.40331 18.3705 4.5164 15.4836C1.62949 12.5967 0.00529192 8.6827 0 4.59999C0 3.38 0.484642 2.20997 1.34731 1.3473C2.20998 0.484634 3.38 -7.77552e-06 4.6 -7.77552e-06C4.85834 -0.00197558 5.11625 0.0214706 5.37 0.0699922C5.61531 0.106293 5.85647 0.166582 6.09 0.249992C6.25425 0.307622 6.40061 0.407126 6.51461 0.538664C6.62861 0.670203 6.7063 0.829221 6.74 0.999992L8.11 6.99999C8.14693 7.16286 8.14248 7.33237 8.09706 7.49308C8.05165 7.65378 7.96671 7.80055 7.85 7.91999C7.72 8.05999 7.71 8.06999 6.48 8.70999C7.46499 10.8708 9.1932 12.6062 11.35 13.6C12 12.36 12.01 12.35 12.15 12.22C12.2694 12.1033 12.4162 12.0183 12.5769 11.9729C12.7376 11.9275 12.9071 11.9231 13.07 11.96L19.07 13.33C19.2353 13.3683 19.3881 13.4481 19.5141 13.5618C19.64 13.6756 19.735 13.8195 19.79 13.98C19.8744 14.2174 19.938 14.4616 19.98 14.71C20.0202 14.9613 20.0403 15.2155 20.04 15.47C20.0216 16.6848 19.5233 17.8429 18.654 18.6916C17.7847 19.5404 16.6149 20.0107 15.4 20ZM4.6 1.99999C3.91125 2.00263 3.25146 2.2774 2.76443 2.76442C2.27741 3.25145 2.00263 3.91124 2 4.59999C2.00265 8.15308 3.41528 11.5599 5.92769 14.0723C8.44011 16.5847 11.8469 17.9973 15.4 18C16.0888 17.9974 16.7485 17.7226 17.2356 17.2356C17.7226 16.7485 17.9974 16.0887 18 15.4V15.07L13.36 14L13.07 14.55C12.62 15.42 12.29 16.05 11.45 15.71C9.79288 15.1169 8.2887 14.162 7.04673 12.9149C5.80477 11.6677 4.85622 10.1596 4.27 8.49999C3.91 7.71999 4.59 7.35999 5.45 6.90999L6 6.63999L4.93 1.99999H4.6Z" fill="white"/>
+                    </svg> +998 (99) 800-26-62
+                    </a>
+
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="under-nav">
+        <p>Актуальные цены на запчасти и услуги ремонта уточняйте у менеджера </p>
+    </div>
+
+
+    <section class="section-1 mb-5">
+        <div class="bg-gradient">
+            <h1 class="mb-3">ПРОФЕССИОНАЛЬНЫЙ РЕМОНТ БЫТОВОЙ ТЕХНИКИ</h1>
+            <p class="mb-3">Оперативность. Эффективность. Результативность</p>
+            <form action="#!" class="mb-3">
+                <input type="text" class="mb-3" placeholder="Введите Ваш номер телефона">
+                <button type="submit">
+                    zakazat telfon
+                </button>
+            </form>
+            <div class="under-items mb-3">
+                <div class="item ">
+                    <div class="icon">
+                        <svg width="32" height="48" viewBox="0 0 32 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 24.2L15.167 16H11L21.333 6.19995L16.833 14H21L11 24.2Z" fill="#537DF7"/>
+                        <path d="M32 16C32 7.178 24.822 0 16 0C7.178 0 0 7.178 0 16C0 22.136 3.511 27.71 9 30.383V36C7.897 36 7 36.897 7 38V40C7 41.103 7.897 42 9 42H10V43C10 44.103 10.897 45 12 45H13V46C13 47.103 13.897 48 15 48H17C18.103 48 19 47.103 19 46V45H20C21.103 45 22 44.103 22 43V42H23C24.103 42 25 41.103 25 40V38C25 36.897 24.103 36 23 36V30.383C28.489 27.71 32 22.136 32 16ZM17 46H15V45H17V46ZM20 43H12V42H20V43ZM22.997 40H9V38H23L22.997 40ZM21.6 28.828L21 29.09V36H17V30H15V36H11V29.089L10.4 28.827C5.29702 26.596 2 21.56 2 15.999C2 8.279 8.28 1.999 16 1.999C23.72 1.999 30 8.279 30 15.999C30 21.561 26.702 26.596 21.6 28.828Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="info-text">
+                        <p>Оперативное <br> реагирование</p>
+                    </div>
+
+                </div>
+                <div class="item ">
+                    <div class="icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M46.6092 37.222L37.7002 26.59L33.8342 29.839L29.6512 24.82C32.6092 22.422 34.8702 19.13 35.9612 15.273C36.0122 15.094 36.0122 14.907 35.9612 14.728C33.6762 6.646 26.2902 1 18.0002 1C9.71023 1 2.32425 6.646 0.03825 14.728C-0.01275 14.907 -0.01275 15.094 0.03825 15.273C2.32425 23.354 9.71023 29 18.0002 29C21.6382 29 25.1022 27.911 28.0372 26.008L32.3022 31.126L28.5912 34.244L37.4982 44.873C38.6312 46.225 40.2923 47 42.0563 47C43.4513 47 44.8072 46.505 45.8762 45.606C48.3882 43.497 48.7162 39.735 46.6092 37.222ZM2.04222 15C4.17222 7.92 10.6942 3 18.0002 3C25.3062 3 31.8282 7.92 33.9582 15C31.8282 22.08 25.3062 27 18.0002 27C10.6942 27 4.17222 22.08 2.04222 15ZM37.4542 29.41L40.4302 32.961L34.3812 38.037L31.4082 34.49L37.4542 29.41ZM44.5903 44.075C43.8813 44.672 42.9812 45 42.0572 45C40.8872 45 39.7852 44.485 39.0332 43.588L35.6662 39.57L41.7153 34.494L45.0782 38.507C46.4762 40.176 46.2583 42.674 44.5903 44.075Z" fill="white"/>
+                            <path d="M24.0002 15C24.0002 18.31 21.3102 21 18.0002 21C14.6902 21 12.0002 18.31 12.0002 15C12.0002 11.69 14.6902 9 18.0002 9C18.1802 9 18.3503 9.01 18.5203 9.03C18.1903 9.61 18.0002 10.29 18.0002 11C18.0002 13.21 19.7902 15 22.0002 15C22.7102 15 23.3902 14.81 23.9702 14.48C23.9902 14.65 24.0002 14.82 24.0002 15Z" fill="#537DF7"/>
+                            </svg>
+
+                    </div>
+                    <div class="info-text">
+                        <p>Бесплатная <br> диагностика</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="under-items mb-3">
+                <div class="item ">
+                    <div class="icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 22C20.6569 22 22 20.6569 22 19C22 17.3431 20.6569 16 19 16C17.3431 16 16 17.3431 16 19C16 20.6569 17.3431 22 19 22Z" fill="#537DF7"/>
+                            <path d="M29 22C30.6569 22 32 20.6569 32 19C32 17.3431 30.6569 16 29 16C27.3431 16 26 17.3431 26 19C26 20.6569 27.3431 22 29 22Z" fill="#537DF7"/>
+                            <path d="M29 27C29 29.761 26.761 32 24 32C21.239 32 19 29.761 19 27H29Z" fill="#537DF7"/>
+                            <path d="M42.887 46C42.333 40.746 39.621 35.955 35.355 32.772C37.435 30.359 38.751 27.282 38.954 23.903C41.256 23.456 43 21.43 43 19C43 16.621 41.329 14.624 39.099 14.122L43.707 6.634C44.742 4.953 44.912 3.312 44.186 2.013C43.461 0.715001 41.974 0 40 0H24C16.033 0 9.49699 6.244 9.02699 14.095C6.73399 14.549 5 16.575 5 19C5 21.43 6.74401 23.456 9.04601 23.904C9.24901 27.282 10.565 30.359 12.644 32.772C8.378 35.955 5.666 40.746 5.112 46H2V48H5H7H41H43H46V46H42.887ZM7 19C7 17.696 7.836 16.584 9 16.171V21.828C7.836 21.416 7 20.304 7 19ZM11 15C11 7.832 16.832 2 24 2H40C41.2 2 42.09 2.36 42.441 2.989C42.792 3.618 42.633 4.564 42.004 5.586L37 13.717V16H38C39.654 16 41 17.346 41 19C41 20.654 39.654 22 38 22H37V23C37 30.168 31.168 36 24 36C16.832 36 11 30.168 11 23V15ZM7.12 46C7.67499 41.289 10.179 37.016 14.068 34.211C16.717 36.56 20.19 38 24 38C27.81 38 31.283 36.56 33.931 34.211C37.82 37.016 40.324 41.289 40.879 46H7.12Z" fill="white"/>
+                            </svg>
+
+                    </div>
+                    <div class="info-text">
+
+                        <p>Опытные <br> специалисты</p>
+                    </div>
+
+                </div>
+                <div class="item ">
+                    <div class="icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M42 35C43.1046 35 44 34.1046 44 33C44 31.8954 43.1046 31 42 31C40.8954 31 40 31.8954 40 33C40 34.1046 40.8954 35 42 35Z" fill="#537DF7"/>
+                            <path d="M34 44C34 44.552 33.551 45 33 45H3C2.449 45 2 44.552 2 44V23C2 22.448 2.449 22 3 22H33C33.551 22 34 22.448 34 23V27H36V23C36 21.346 34.654 20 33 20H30V17.5C30 16.673 29.327 16 28.5 16H27V10C27 5.037 22.962 1 18 1C13.038 1 9 5.037 9 10V16H7.5C6.673 16 6 16.673 6 17.5V20H3C1.346 20 0 21.346 0 23V44C0 45.654 1.346 47 3 47H33C34.654 47 36 45.654 36 44V40H34V44ZM28 20H24V18H28V20ZM11 10C11 6.141 14.14 3 18 3C21.86 3 25 6.141 25 10V16H23.5C22.673 16 22 16.673 22 17.5V20H14V17.5C14 16.673 13.327 16 12.5 16H11V10ZM8 18H12V20H8V18Z" fill="white"/>
+                            <path d="M5 26.5V31H7V27H11V25H6.5C5.673 25 5 25.673 5 26.5Z" fill="#537DF7"/>
+                            <path d="M42 27C39.033 27 36.569 29.167 36.09 32H22V38H24V34H26V36H28V34H36.09C36.568 36.833 39.032 39 42 39C45.309 39 48 36.309 48 33C48 29.691 45.309 27 42 27ZM42 37C39.794 37 38 35.206 38 33C38 30.794 39.794 29 42 29C44.206 29 46 30.794 46 33C46 35.206 44.206 37 42 37Z" fill="white"/>
+                            </svg>
+
+
+                    </div>
+                    <div class="info-text">
+
+                        <p>Высокое качество <br> выполнения работ</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-2 mb-5 ">
+        <h1 class="mb-4 text-center">
+            Наши услуги
+        </h1>
+        <p class="text-center">Обратившись за помощью в наш сервисный центр, Вы быстро и надёжно решите возникшие технические проблемы.</p>
+
+
+        <div class="my-4 card-box">
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-hover">
+                    <p>Ремонт холодильников, стиральных машин, посудомоечных машин, микроволновок, духовых шкафов, варочных панелей, электроплит, газовых плит</p>
+                </div>
+
+                <div class="top-item">
+                    <div class="bg-item">
+
+                        <img src="https://s3-alpha-sig.figma.com/img/18a0/75a6/0491a4a8bb340069f9e23c65cfc98380?Expires=1612742400&Signature=WBPfknGQvbmjcxw848tXvvtSse9K7-rnheALedE1lHG~NX3EHFh6FbD8AhwkNUv1FH1Mrw2Z3VmSoeQAlK~G-xzxEl8TPd~Ir8q5o8xlNbkYZVZzbDXhXgsH4YsmBrJj4ku-fT9-Ok6r5Trp6AUI2h-TBKKlgBls3UNHB9Z-idIPQAwrTdskBsfYSzLIdxu6~4UlRiAV-tQSTNJlfWY5RUQ5bN4FkqsdU1yQkV0cvRVOdwOwCqlTV90nb9huEcSXawp~wJ~VGF4wVLwP6ivZr9GD9XoymMccxKkprve8SSv0MrLB51AFSCbK302NFJZihJ489nHHxrceVDzz7nxjow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="img">
+                    </div>
+
+                </div>
+                <div class="under-item">
+                    Крупная бытовая техника
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section-3 my-5">
+        <h1 class="text-center mb-5">Преимущества </h1>
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="item">
+                    <img src="./assets/images/circle1.PNG" alt="circle">
+                    <p>
+                        Дорожим своей репутацией и Вашей техникой. Оснащение по промышленным стандартам каждого рабочего места.
+                    </p>
+
+                </div>
+            </div>
+            <div class=" col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="item">
+                    <img src="./assets/images/circle2.PNG" alt="circle">
+                    <p>Только грамотные специалисты с солидным опытом, поэтому мы готовы гарантировать максимальные результаты.</p>
+                </div>
+            </div>
+
+            <div class=" col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="item">
+                    <img src="./assets/images/circle3.PNG" alt="circle">
+                    <p>Мы зарабатываем только на качественном и обоснованном оказании услуг. Наши клиенты не переплачивают лишнего.</p>
+                </div>
+            </div>
+            <div class=" col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="item">
+                    <img src="./assets/images/circle4.PNG" alt="circle">
+                    <p>Мы делаем свою работу профессионально, а также даем гарантию на произведенные работы и замененные детали.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-4">
+        <div class="left-item">
+            <img src="./assets/images/like.PNG" alt="gggg">
+            <div class="item">
+                <p>Предоставляем гарантию от <b>3 месяцев</b> на ремонт бытовой техники.</p>
+                <p>Исправим повторную поломку совершенно бесплатно!</p>
+            </div>
+        </div>
+        <img class="right-img" src="https://s3-alpha-sig.figma.com/img/5516/ef44/6f4414c0d89d935dffae9f5553e173f7?Expires=1612742400&Signature=UfJ1aJrf-aS1gNgVE7yKUiTBbkvh0yPfAdtFzQXI5qcj9O3~6d0PEOc~cI7UVCp7eEECdr2Hdjlb5GOmqhwc4koBV2D1hx5cwCLUGJMMMqDZ2m0Pvu7-odv-cedwDJplsWDfzReJ1UgsfhqKU6A8-CV-DHWLnce5~6OqEiFA8dxfRwmai2~8f27zFJ6BFH0swqrs6X8UqkwYnztsEPyQCl0inx8ZuFuRCI1oL5hwg7FT2v~TB~VrO9YP-oNdQ~4GopPZRVB6Z~iSAqShsptdhPQUl~mZ-Gw3s2JBxWJaYHsT-aEBGUamEgT~kd8rLUEHTz54x4rep6XgCpCS0NRXQQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt="gggg">
+
+    </section>
+
+
+    <section class="section-5 my-5 ">
+        <h1 class="text-center my-5">Как мы работаем</h1>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6 mb-3">
+                <div class="item left-img-item">
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-between">
+                <div class="item mb-3">
+                    <div class="inner-item">
+                        <div class="left-item">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.1" width="80" height="80" rx="4" fill="#0371B8"/>
+                                <rect opacity="0.1" x="8" y="8" width="64" height="64" rx="4" fill="#0371B8"/>
+                                <path d="M55.2723 16H24.7277C22.1876 16 20.1212 18.0665 20.1212 20.6065V59.3935C20.1212 61.9336 22.1876 64 24.7277 64H55.2723C57.8123 64 59.8788 61.9336 59.8788 59.3935V20.6065C59.8788 18.0665 57.8123 16 55.2723 16ZM34.1431 54.9045L29.6588 50.4202H34.1431V54.9045ZM35.2206 48.2652H28.135V23.5722H31.4075V25.2513C31.4075 25.8464 31.8899 26.3288 32.485 26.3288H47.5152C48.1103 26.3288 48.5927 25.8464 48.5927 25.2513V23.5722H51.8658V56.4281H36.2982V49.3426C36.2981 48.7476 35.8157 48.2652 35.2206 48.2652ZM46.4376 24.1739H33.5623V19.2325H46.4376V24.1739ZM56.6463 59.3935C56.6463 60.1511 56.0299 60.7675 55.2723 60.7675H24.7277C23.9701 60.7675 23.3536 60.1511 23.3536 59.3935V20.6065C23.3536 19.8489 23.9701 19.2325 24.7277 19.2325H31.4074V21.4172H27.0574C26.4623 21.4172 25.9799 21.8996 25.9799 22.4947V49.3426C25.9799 49.6283 26.0935 49.9024 26.2955 50.1045L34.4586 58.2675C34.6606 58.4696 34.9347 58.5831 35.2205 58.5831H52.9431C53.5382 58.5831 54.0206 58.1007 54.0206 57.5056V22.4947C54.0206 21.8996 53.5382 21.4172 52.9431 21.4172H48.5925V19.2325H55.2722C56.0298 19.2325 56.6462 19.8489 56.6462 20.6065V59.3935H56.6463Z" fill="#0371B8"/>
+                                <path d="M31.5155 32.1079H48.4852C49.0803 32.1079 49.5626 31.6255 49.5626 31.0304C49.5626 30.4353 49.0803 29.9529 48.4852 29.9529H31.5155C30.9204 29.9529 30.438 30.4353 30.438 31.0304C30.438 31.6255 30.9204 32.1079 31.5155 32.1079Z" fill="#0371B8"/>
+                                <path d="M31.5155 37.6836H48.4852C49.0803 37.6836 49.5626 37.2012 49.5626 36.6061C49.5626 36.011 49.0803 35.5286 48.4852 35.5286H31.5155C30.9204 35.5286 30.438 36.011 30.438 36.6061C30.438 37.2012 30.9204 37.6836 31.5155 37.6836Z" fill="#0371B8"/>
+                                <path d="M49.5626 42.1819C49.5626 41.5868 49.0803 41.1044 48.4852 41.1044H31.5155C30.9204 41.1044 30.438 41.5868 30.438 42.1819C30.438 42.777 30.9204 43.2594 31.5155 43.2594H48.4852C49.0803 43.2594 49.5626 42.7769 49.5626 42.1819Z" fill="#0371B8"/>
+                                </svg>
+
+                        </div>
+                        <div class="right-item">
+                            <p> <b>Подача заявки</b> </p>
+                            <p>Принимаем Вашу заявку на ремонт</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-3">
+                    <div class="inner-item">
+                        <div class="left-item">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.1" width="80" height="80" rx="4" fill="#0371B8"/>
+                                <rect opacity="0.1" x="8" y="8" width="64" height="64" rx="4" fill="#0371B8"/>
+                                <g clip-path="url(#clip0)">
+                                <path d="M61.0832 47.4026C60.88 47.4026 60.6756 47.4281 60.4758 47.4784C56.9391 48.3687 52.8903 49.3058 49.6761 49.5065C49.5209 49.5162 49.3248 49.5211 49.0932 49.5211C46.644 49.5212 42.7698 49.0686 42.0669 48.7004C41.5717 48.441 41.2576 48.1197 41.0585 47.8118H46.6274C48.0267 47.8118 49.1801 47.0143 49.5676 45.8821H60.7138C62.1718 45.8821 63.358 44.6959 63.358 43.2379V23.1348C63.358 21.6768 62.1718 20.4906 60.7138 20.4906H37.5678C36.1099 20.4906 34.9237 21.6768 34.9237 23.1347V40.1335C32.5182 40.2148 29.1989 40.9067 27.0842 42.6536C26.2347 43.3552 25.6222 43.8339 25.13 44.2185C24.8116 44.4672 24.5367 44.682 24.2779 44.8946C23.2339 45.7519 22.3321 46.4921 17.1213 46.4921C16.502 46.4921 16 46.9942 16 47.6135V58.388C16 58.7528 16.1775 59.0948 16.4757 59.3048C16.6673 59.4397 16.8933 59.5093 17.1214 59.5093C17.2486 59.5093 17.3764 59.4877 17.4993 59.4437C21.9443 57.8522 22.7366 57.6205 24.6504 57.0605L24.8225 57.0102C24.9819 56.9635 25.1358 56.9166 25.2875 56.8704C26.1701 56.6012 26.8672 56.3885 28.1771 56.3885C29.6091 56.3885 31.5565 56.6451 34.3062 57.1961C39.6881 58.2744 42.2809 58.747 44.5216 58.747H44.5217C45.8227 58.747 47.011 58.5938 48.5476 58.3775C51.7514 57.9264 58.0502 55.8233 61.2643 54.1315C62.2876 53.593 64.0002 52.6915 64.0002 50.768V50.695C64 49.1377 62.8021 47.4026 61.0832 47.4026ZM46.5757 22.7334H51.7058V32.0517H46.5757V22.7334ZM37.5678 22.7334H44.333V33.173C44.333 33.7922 44.835 34.2943 45.4544 34.2943H52.8272C53.4465 34.2943 53.9485 33.7922 53.9485 33.173V22.7333H60.7138C60.9352 22.7333 61.1154 22.9134 61.1154 23.1348V43.2379C61.1154 43.4594 60.9352 43.6395 60.7138 43.6395H49.6042C49.2875 42.3261 48.2015 41.3915 46.813 41.3017C45.4713 41.2149 43.3368 40.9561 41.2725 40.7056C39.7655 40.5227 38.3255 40.3482 37.1664 40.2349V23.1348C37.1663 22.9135 37.3464 22.7334 37.5678 22.7334ZM61.7573 50.768C61.7573 51.2045 61.398 51.5267 60.2197 52.1471C57.2361 53.7174 51.1878 55.741 48.2348 56.1567C46.7892 56.3603 45.6768 56.5044 44.5216 56.5043C42.5948 56.5043 40.391 56.1281 34.7466 54.9972C31.8482 54.4164 29.7606 54.1459 28.177 54.1459C26.5327 54.1459 25.5669 54.4406 24.6331 54.7254C24.4893 54.7693 24.3435 54.8138 24.1924 54.8579L24.0206 54.9083C22.3016 55.4112 21.467 55.6554 18.2426 56.798V48.7226C22.9191 48.6152 24.2598 47.811 25.7008 46.628C25.9387 46.4326 26.2037 46.2256 26.5107 45.9858C27.0135 45.5928 27.6394 45.1038 28.5124 44.3828C30.1972 42.9909 33.1875 42.3679 35.4036 42.3679C35.6585 42.3679 35.9004 42.3765 36.1222 42.3936C37.3317 42.4866 39.1146 42.7029 41.0023 42.9319C43.0972 43.1861 45.2636 43.4489 46.6681 43.5398C47.1144 43.5687 47.4147 43.875 47.4516 44.335C47.4567 44.4129 47.4624 44.7702 47.4647 45.0463C47.4647 45.403 46.965 45.5692 46.6274 45.5692H39.5948C38.997 45.5692 38.5044 46.038 38.4748 46.635C38.4694 46.743 38.3741 49.2977 41.0263 50.687C42.4704 51.4435 47.3824 51.7637 49.0932 51.7637C49.3712 51.7637 49.6144 51.7574 49.8158 51.7447C53.2123 51.5327 57.3872 50.5684 61.0232 49.6532C61.0446 49.6478 61.0642 49.6452 61.0832 49.6452C61.3368 49.6452 61.7573 50.1537 61.7573 50.6951V50.768Z" fill="#0371B8"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="48" height="48" fill="white" transform="translate(16 16)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+
+
+                        </div>
+                        <div class="right-item">
+                            <p> <b>Приём устройства</b> </p>
+                            <p>Вы передаёте нам Ваше неисправное устройство</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-3">
+                    <div class="inner-item">
+                        <div class="left-item">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.1" width="80" height="80" rx="4" fill="#0371B8"/>
+                                <rect opacity="0.1" x="8" y="8" width="64" height="64" rx="4" fill="#0371B8"/>
+                                <g clip-path="url(#clip0)">
+                                <path d="M29.5318 23.938L25.6359 30.5714V44.7642H46.462V30.5714L42.5661 23.938H29.5318ZM40.851 26.9342L42.3466 29.4807H29.7513L31.2469 26.9342H40.851ZM37.5471 41.7679V35.9725H34.5509V41.7679H28.6321V32.4769H43.4658V41.7679H37.5471Z" fill="#0371B8"/>
+                                <path d="M64 61.8813L51.2386 49.12C54.2653 45.6076 56.0978 41.0384 56.0978 36.0489C56.0978 24.9939 47.104 16 36.0489 16C24.9939 16 16 24.9939 16 36.0489C16 47.104 24.9939 56.0979 36.0489 56.0979C41.0384 56.0979 45.6077 54.2654 49.12 51.2387L61.8814 64.0001L64 61.8813ZM18.9962 36.0489C18.9962 26.646 26.646 18.9962 36.0489 18.9962C45.4519 18.9962 53.1017 26.646 53.1017 36.0489C53.1017 45.4518 45.4519 53.1017 36.0489 53.1017C26.646 53.1017 18.9962 45.4518 18.9962 36.0489Z" fill="#0371B8"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="48" height="48" fill="white" transform="translate(16 16)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+
+
+                        </div>
+                        <div class="right-item">
+                            <p> <b>Диагностика</b> </p>
+                            <p>Мастер проводит диагностику и согласовывает с Вами время и стоимость работы</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-3">
+                    <div class="inner-item">
+                        <div class="left-item">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.1" width="80" height="80" rx="4" fill="#0371B8"/>
+                                <rect opacity="0.1" x="8" y="8" width="64" height="64" rx="4" fill="#0371B8"/>
+                                <path d="M63.9561 35.5497L62.6406 30.6403C62.5215 30.196 62.1746 29.8491 61.7303 29.73C61.2861 29.6112 60.8121 29.7381 60.4867 30.063L55.7194 34.8301L53.1395 34.1387L52.4481 31.5587L57.2147 26.7909C57.54 26.4654 57.6669 25.9914 57.5477 25.5472C57.4286 25.1029 57.0815 24.756 56.6372 24.6369L51.7289 23.3227C51.2846 23.2042 50.8107 23.3307 50.4855 23.6559L43.9516 30.1887C43.6263 30.5139 43.4992 30.9881 43.6184 31.4323L44.7417 35.6237L42.459 37.9064L38.2426 33.69L38.299 33.6333C38.3152 33.6172 38.3293 33.6 38.3444 33.5832C38.3588 33.5672 38.3739 33.5519 38.3874 33.5356C38.4026 33.5174 38.4154 33.4977 38.4293 33.4788C38.4408 33.463 38.4534 33.4476 38.464 33.4316C38.4774 33.4114 38.4887 33.3902 38.5007 33.3693C38.51 33.3535 38.5203 33.3381 38.5287 33.3221C38.5421 33.2969 38.5531 33.2708 38.5646 33.2448C38.5701 33.2325 38.5766 33.2203 38.5818 33.2078C38.5951 33.175 38.6063 33.1413 38.6168 33.1079C38.6187 33.1019 38.6211 33.096 38.623 33.09C38.6312 33.0619 38.6374 33.0332 38.6437 33.0047C38.6463 32.9929 38.6501 32.9812 38.6523 32.9693C38.6547 32.9572 38.6556 32.9448 38.6576 32.9326C38.7223 32.5373 38.6037 32.1179 38.2989 31.8132L35.937 29.4509C36.3881 29.2507 36.8805 29.1457 37.3891 29.1457C38.3452 29.1457 39.2437 29.5175 39.9186 30.1929C40.4212 30.6957 41.2365 30.6961 41.7392 30.1933C41.7396 30.1929 41.7397 30.1926 41.7401 30.1924L45.1791 26.7541C45.4206 26.5128 45.5562 26.1852 45.5562 25.8436C45.5562 25.502 45.4206 25.1747 45.1789 24.933C40.883 20.6388 33.894 20.6388 29.5994 24.9333L22.7194 31.8131C22.4779 32.0546 22.3422 32.3819 22.3422 32.7235C22.3422 33.065 22.4779 33.3925 22.7194 33.634L23.5293 34.4439L22.447 35.5258L21.6372 34.7161C21.3959 34.4746 21.0684 34.339 20.7269 34.339C20.3855 34.339 20.058 34.4746 19.8165 34.7161L16.377 38.1556C16.1356 38.3972 16 38.7247 16 39.0661C16 39.4074 16.1358 39.7349 16.3771 39.9764L23.257 46.8551C23.5083 47.1064 23.8377 47.232 24.1673 47.232C24.4967 47.232 24.8263 47.1064 25.0776 46.8551L28.5168 43.4159C29.0196 42.913 29.0196 42.0979 28.5168 41.5951L27.7052 40.7834L28.7877 39.7009L29.5994 40.5127C29.8409 40.754 30.1683 40.8896 30.5099 40.8896C30.8513 40.8896 31.1787 40.754 31.4202 40.5125L31.8354 40.0971L36.0515 44.3133L30.4222 49.9425C29.4988 50.8657 28.9904 52.0932 28.9904 53.399C28.9904 54.705 29.4993 55.9327 30.422 56.8547C31.3447 57.7789 32.5722 58.288 33.8785 58.288C35.1845 58.288 36.4123 57.7792 37.3357 56.8555L42.9647 51.2272L49.27 57.532C49.5215 57.7833 49.8509 57.909 50.1803 57.909C50.5099 57.909 50.8393 57.7833 51.0906 57.5319L55.6765 52.9457C56.1793 52.4429 56.1793 51.6279 55.6767 51.1252L49.3725 44.8199L51.6547 42.5381L55.8445 43.6602C56.2888 43.7795 56.7627 43.6523 57.088 43.3272L63.6225 36.7935C63.9482 36.4681 64.0752 35.9939 63.9561 35.5497ZM24.1673 44.124L19.1082 39.0658L20.7273 37.4465L24.0508 40.7703L24.9739 41.6938C24.975 41.6949 24.976 41.6957 24.977 41.6968L25.7859 42.5056L24.1673 44.124ZM26.965 37.8825L25.8847 38.9626L24.2682 37.3456L25.3485 36.2655L26.965 37.8825ZM42.3785 25.9125L40.7335 27.5573C39.7465 26.9157 38.5948 26.5703 37.3891 26.5703C36.1834 26.5703 35.0315 26.9157 34.0443 27.5575L32.3998 25.9127C35.3573 23.7432 39.4203 23.7432 42.3785 25.9125ZM30.5097 37.7818L25.4506 32.723L30.5097 27.6639L33.0377 30.1923L33.047 30.2015L35.568 32.7228L35.5132 32.7776C35.5125 32.7783 35.512 32.7788 35.5113 32.7793L30.9248 37.3657C30.9224 37.3681 30.9205 37.3706 30.9181 37.3732L30.5097 37.7818ZM33.6562 38.2763L36.4218 35.5107L40.6382 39.7272L37.8726 42.4927L33.6562 38.2763ZM52.9459 52.0355L50.1805 54.801L44.7858 49.4064L47.5523 46.6405L52.9459 52.0355ZM55.7934 40.9806L51.6036 39.8585C51.1596 39.7397 50.6854 39.8664 50.3602 40.1917L35.5151 55.0349C35.0781 55.4723 34.4968 55.7131 33.8787 55.7131C33.2609 55.7131 32.6805 55.4725 32.2431 55.0344C31.8061 54.5977 31.5652 54.0168 31.5652 53.399C31.5651 52.7811 31.8057 52.2005 32.2428 51.7636L47.0879 36.919C47.4132 36.5935 47.5402 36.1196 47.4209 35.6754L46.2978 31.484L51.7804 26.0023L53.8169 26.5476L50.1015 30.264C49.7764 30.5893 49.6494 31.0632 49.7685 31.5075L50.8448 35.5234C50.9638 35.9677 51.3109 36.3146 51.7551 36.4337L55.7709 37.51C56.2153 37.629 56.6893 37.5021 57.0146 37.177L60.7306 33.4611L61.2765 35.4985L55.7934 40.9806Z" fill="#0371B8"/>
+                                </svg>
+
+
+                        </div>
+                        <div class="right-item">
+                            <p> <b>Ремонт</b> </p>
+                            <p>Мастер устраняет все неисправности</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mb-3">
+                    <div class="inner-item">
+                        <div class="left-item">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.1" width="80" height="80" rx="4" fill="#0371B8"/>
+                                <rect opacity="0.1" x="8" y="8" width="64" height="64" rx="4" fill="#0371B8"/>
+                                <g clip-path="url(#clip0)">
+                                <path d="M62.0656 33.8716H38.9414V19.6059C38.9414 18.5594 38.09 17.7079 37.0435 17.7079H30.9744C30.0527 16.8564 28.8217 16.3348 27.4707 16.3348C26.1197 16.3348 24.8888 16.8564 23.9671 17.7079H17.8979C16.8514 17.7079 16 18.5594 16 19.6059V45.6308C16 46.6773 16.8514 47.5288 17.8979 47.5288H29.6711V61.7307C29.6711 62.7974 30.5389 63.6651 31.6056 63.6651H62.0656C63.1322 63.6651 64.0001 62.7974 64.0001 61.7307V35.8058C64 34.7392 63.1322 33.8716 62.0656 33.8716ZM42.6104 36.181H51.061V50.911L47.2349 49.5016C46.9773 49.4067 46.6942 49.4067 46.4366 49.5016L42.6105 50.911V36.181H42.6104ZM27.4707 18.6442C28.9947 18.6442 30.2438 19.8429 30.3255 21.347H24.616C24.6975 19.8428 25.9467 18.6442 27.4707 18.6442ZM18.3094 20.0173H22.5209C22.3936 20.4404 22.32 20.8862 22.3061 21.3469H20.0577C19.42 21.3469 18.903 21.8639 18.903 22.5016C18.903 23.1393 19.42 23.6563 20.0577 23.6563H34.8837C35.5214 23.6563 36.0384 23.1393 36.0384 22.5016C36.0384 21.8639 35.5214 21.3469 34.8837 21.3469H32.6353C32.6214 20.8862 32.5477 20.4404 32.4205 20.0173H36.632V45.2193H18.3094V20.0173ZM61.6906 61.3557H31.9805V47.5288H37.0434C38.0899 47.5288 38.9413 46.6774 38.9413 45.6308V36.1809H40.3009V52.567C40.3009 52.9445 40.4855 53.2982 40.7951 53.5141C40.9915 53.6511 41.2226 53.7217 41.4557 53.7217C41.5901 53.7217 41.7252 53.6983 41.8547 53.6505L46.8355 51.8157L51.8163 53.6505C52.1706 53.781 52.5663 53.7301 52.8759 53.5141C53.1856 53.2982 53.3702 52.9445 53.3702 52.567V36.181H61.6905V61.3557H61.6906Z" fill="#0371B8"/>
+                                <path d="M31.3336 31.1577L25.7083 36.783L23.6077 34.6824C23.1568 34.2315 22.4257 34.2315 21.9747 34.6824C21.5237 35.1334 21.5237 35.8645 21.9747 36.3155L24.8917 39.2326C25.1083 39.4491 25.402 39.5707 25.7083 39.5707C26.0145 39.5707 26.3082 39.4491 26.5248 39.2326L32.9667 32.7907C33.4176 32.3398 33.4176 31.6086 32.9667 31.1577C32.5157 30.7067 31.7846 30.7067 31.3336 31.1577Z" fill="#0371B8"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="48" height="48" fill="white" transform="translate(16 16)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+
+
+
+                        </div>
+                        <div class="right-item">
+                            <p> <b>Получение</b> </p>
+                            <p>Вы получаете Ваше исправное устройство с гарантией от 3 месяцев!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-6 my-5">
+        <h1 class="text-center mb-3 font-weight-bold">Ремонтируем в кредит</h1>
+        <p class="text-center font-weight-bold mb-5">К сожалению, любимая техника выходит из строя в самый неподходящий момент. Чтобы ремонт не сильно ударил по карману, мы предлагаем оформить <a href="#!">ремонт в рассрочку или кредит.</a></p>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="item">
+                    <h1 class="mb-3">Как это работает?</h1>
+                    <ul>
+                        <li><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 3C8.8 3 3 8.8 3 16C3 23.2 8.8 29 16 29C23.2 29 29 23.2 29 16C29 14.602 28.812 13.207 28.312 11.906L26.688 13.5C26.888 14.3 27.001 15.102 27.001 16C27.001 22.102 22.103 27 16.001 27C9.899 27 5 22.102 5 16C5 9.898 9.898 5 16 5C19 5 21.695 6.195 23.594 8.094L25 6.688C22.7 4.386 19.5 3 16 3ZM27.281 7.281L16 18.563L11.719 14.281L10.281 15.719L15.281 20.719L16 21.406L16.719 20.719L28.719 8.719L27.281 7.281Z" fill="#0371B8"/>
+                            </svg>
+
+                            <p>Определяем стоимость ремонта при визите к нам в салон или по телефону.</p>
+                        </li>
+                        <li><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 3C8.8 3 3 8.8 3 16C3 23.2 8.8 29 16 29C23.2 29 29 23.2 29 16C29 14.602 28.812 13.207 28.312 11.906L26.688 13.5C26.888 14.3 27.001 15.102 27.001 16C27.001 22.102 22.103 27 16.001 27C9.899 27 5 22.102 5 16C5 9.898 9.898 5 16 5C19 5 21.695 6.195 23.594 8.094L25 6.688C22.7 4.386 19.5 3 16 3ZM27.281 7.281L16 18.563L11.719 14.281L10.281 15.719L15.281 20.719L16 21.406L16.719 20.719L28.719 8.719L27.281 7.281Z" fill="#0371B8"/>
+                            </svg>
+
+                            <p>Делаем запрос в банк на одобрение рассрочки или кредита, ответ приходит за 5 минут..</p>
+                        </li>
+                        <li><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 3C8.8 3 3 8.8 3 16C3 23.2 8.8 29 16 29C23.2 29 29 23.2 29 16C29 14.602 28.812 13.207 28.312 11.906L26.688 13.5C26.888 14.3 27.001 15.102 27.001 16C27.001 22.102 22.103 27 16.001 27C9.899 27 5 22.102 5 16C5 9.898 9.898 5 16 5C19 5 21.695 6.195 23.594 8.094L25 6.688C22.7 4.386 19.5 3 16 3ZM27.281 7.281L16 18.563L11.719 14.281L10.281 15.719L15.281 20.719L16 21.406L16.719 20.719L28.719 8.719L27.281 7.281Z" fill="#0371B8"/>
+                            </svg>
+
+                            <p>Подтверждаем заявку и берем устройство в ремонт.</p>
+                        </li>
+                        <li><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 3C8.8 3 3 8.8 3 16C3 23.2 8.8 29 16 29C23.2 29 29 23.2 29 16C29 14.602 28.812 13.207 28.312 11.906L26.688 13.5C26.888 14.3 27.001 15.102 27.001 16C27.001 22.102 22.103 27 16.001 27C9.899 27 5 22.102 5 16C5 9.898 9.898 5 16 5C19 5 21.695 6.195 23.594 8.094L25 6.688C22.7 4.386 19.5 3 16 3ZM27.281 7.281L16 18.563L11.719 14.281L10.281 15.719L15.281 20.719L16 21.406L16.719 20.719L28.719 8.719L27.281 7.281Z" fill="#0371B8"/>
+                            </svg>
+
+                            <p>Подписываем необходимые документы с банком и отдаем Вам договор.</p>
+                        </li>
+                        <li><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 3C8.8 3 3 8.8 3 16C3 23.2 8.8 29 16 29C23.2 29 29 23.2 29 16C29 14.602 28.812 13.207 28.312 11.906L26.688 13.5C26.888 14.3 27.001 15.102 27.001 16C27.001 22.102 22.103 27 16.001 27C9.899 27 5 22.102 5 16C5 9.898 9.898 5 16 5C19 5 21.695 6.195 23.594 8.094L25 6.688C22.7 4.386 19.5 3 16 3ZM27.281 7.281L16 18.563L11.719 14.281L10.281 15.719L15.281 20.719L16 21.406L16.719 20.719L28.719 8.719L27.281 7.281Z" fill="#0371B8"/>
+                            </svg>
+
+                            <p>В кратчайшие сроки возвращаем Вам отремонтированное устройство с гарантией.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="right-img-item">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="row py-5">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="item">
+                    <img src="./assets/images/footerlogo.PNG" class="mb-3" alt="">
+                    <p class="text-light">ПРОФЕССИОНАЛЬНЫЙ РЕМОНТ <br> БЫТОВОЙ ТЕХНИКИ В ТАШКЕНТЕ</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <ul>
+                    <li><a href="#section1" class="text-light mb-2">Услуги</a></li>
+                    <li><a href="#section2" class="text-light mb-2">Преимущества </a></li>
+                    <li> <a href="#section3" class="text-light mb-2"> Наша работа </a> </li>
+                    <li> <a href="#section4" class="text-light mb-2"> Ремонт в кредит </a> </li>
+                    <li> <a href="#section5" class="text-light mb-2"> Контакты  </a> </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 ">
+                <ul>
+                    <li class="text-light mb-2"><i class="fas fa-map-marker-alt"></i> Г. Ташкент, Шайхантахурский р-н <br> проспект Алишера Навои, 21В</li>
+                    <li class="text-light mb-2"> <i class="fas fa-phone-volume"></i> +998 (99) 800-26-62 </li>
+                    <li class="text-light mb-2"> <i class="far fa-envelope"></i> +998 (99) 800-26-62 </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex">
+                <div class="item">
+                    <i class="far fa-clock"></i>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li class="text-light mb-2">Будни: 9:00 — 19:00</li>
+                        <li class="text-light mb-2">Суббота: 9.00 — 16.00</li>
+                        <li class="text-light mb-2"> Воскресенье: Выходной</li>
+                        <li class="text-light mb-2">Приём заявок с 8:00 до 21:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="./js/index.js" async defer></script>
+</body>
+
+</html>
