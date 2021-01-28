@@ -174,13 +174,32 @@ body {
 }
 
 .under-nav {
-    display: flex;
-    justify-content: flex-end;
+    // display: flex;
+    // justify-content: flex-end;
     background-color: #fff;
+    position: relative;
+    height: 24px;
+    width: 100%;
+    overflow: hidden;
     p {
         font-size: 14px;
         font-weight: 700;
         color: red;
+        white-space: nowrap;
+        position: absolute;
+        animation-name: titleText;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        @keyframes titleText {
+            from {
+                left: 100%;
+            }
+            to {
+                left: -100%;
+            }
+        }
     }
     @media screen and ( max-width:520px) {
         display: none;

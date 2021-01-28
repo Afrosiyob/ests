@@ -255,19 +255,47 @@ body {
 }
 
 .under-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   background-color: #fff;
+  position: relative;
+  height: 24px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .under-nav p {
   font-size: 14px;
   font-weight: 700;
   color: red;
+  white-space: nowrap;
+  position: absolute;
+  -webkit-animation-name: titleText;
+          animation-name: titleText;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes titleText {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes titleText {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -100%;
+  }
 }
 
 @media screen and (max-width: 520px) {
